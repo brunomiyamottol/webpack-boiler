@@ -1,0 +1,29 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Webpack prepared Biolerplate for Front-End WebApplication ",
+  "main": "index.js",
+  "scripts": {
+    "test": "App.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brunomiyamottol/webpack-boiler.git"
+  },
+  "keywords": [
+    "Webpack",
+    "Boilerplate",
+    "Front-End",
+    "React",
+    "Typescript",
+    "JS",
+    "SCSS",
+    "CSS"
+  ],
+  "author": "@brunomiyamotto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunomiyamottol/webpack-boiler/issues"
+  },
+  "homepage": "https://github.com/brunomiyamottol/webpack-boiler#readme"
+}
