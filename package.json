@@ -1,17 +1,19 @@
 {
-  "name": "webpack",
+  "name": "webpackbp",
   "version": "1.0.0",
   "description": "Webpack prepared Biolerplate for Front-End WebApplication ",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
-    "test": "App.test.js"
+    "test": "App.test.js",
+    "start": "webpack-dev-server --config=webpack.dev.js",
+    "build": "webpack --config=webpack.dev.js"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/brunomiyamottol/webpack-boiler.git"
   },
   "keywords": [
-    "Webpack",
+    "Webpackbp",
     "Boilerplate",
     "Front-End",
     "React",
@@ -25,5 +27,20 @@
   "bugs": {
     "url": "https://github.com/brunomiyamottol/webpack-boiler/issues"
   },
-  "homepage": "https://github.com/brunomiyamottol/webpack-boiler#readme"
+  "homepage": "https://github.com/brunomiyamottol/webpack-boiler#readme",
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^0.28.4",
+    "extract-loader": "^3.1.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.18.2"
+  }
 }
